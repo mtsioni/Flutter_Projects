@@ -1,0 +1,33 @@
+name: nordic_nest
+description: "Basic Flutter app showcasing the beauty of Scandinavia through breathtaking visuals."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/denmark.jpg
+    - assets/images/finland.jpg
+    - assets/images/iceland.jpg
+    - assets/images/iceland1.jpg
+    - assets/images/norway.jpg
+    - assets/images/norway1.jpg
+
+  fonts:
+    - family: MajorMonoDisplay
+      fonts:
+        - asset: assets/fonts/MajorMonoDisplay-Regular.ttf
+          weight: 400
