@@ -1,0 +1,33 @@
+name: mi_card
+description: "Mi Card is a personal business card that can be downloaded as an app. It includes all the personal contact details."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/film.jpg
+
+  fonts:
+    - family: LeagueScript
+      fonts:
+        - asset: assets/fonts/LeagueScript-Regular.ttf
+
+    - family: SourceSans3
+      fonts:
+        - asset: assets/fonts/SourceSans3-Regular.ttf
+
