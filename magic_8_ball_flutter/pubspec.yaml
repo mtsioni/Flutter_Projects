@@ -1,0 +1,30 @@
+name: magic_8_ball_flutter
+description: "Magic 8 Ball - A decision making app. It will give you the answers to all the tricky questions in life. You can make the ball change at the press of a button."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: RubikDoodleShadow
+      fonts:
+        - asset: assets/fonts/RubikDoodleShadow-Regular.ttf
